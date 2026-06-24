@@ -1,0 +1,81 @@
+# font
+font-family = "Monaspace Neon NF"
+font-size = 20
+alpha-blending = linear-corrected
+
+# window
+window-vsync = true
+window-padding-x = 10
+window-padding-y = 10
+window-padding-balance = true
+window-save-state = always
+
+# appearance
+background-opacity = 0.8
+background-blur = 90
+
+# input
+copy-on-select = clipboard
+mouse-hide-while-typing = true
+mouse-scroll-multiplier = 1
+
+# shell
+shell-integration = fish
+
+# keybinds
+keybind = super+g>r=reload_config
+
+keybind = super+g>x=close_surface
+
+## tabs
+keybind = super+g>c=new_tab
+keybind = super+g>shift+l=next_tab
+keybind = super+g>shift+h=previous_tab
+keybind = super+g>comma=move_tab:-1
+keybind = super+g>period=move_tab:1
+
+keybind = super+g>1=goto_tab:1
+keybind = super+g>2=goto_tab:2
+keybind = super+g>3=goto_tab:3
+keybind = super+g>4=goto_tab:4
+keybind = super+g>5=goto_tab:5
+keybind = super+g>6=goto_tab:6
+keybind = super+g>7=goto_tab:7
+keybind = super+g>8=goto_tab:8
+keybind = super+g>9=goto_tab:9
+
+## split
+keybind = super+g>\=new_split:right
+keybind = super+g>-=new_split:down
+
+keybind = super+g>j=goto_split:bottom
+keybind = super+g>k=goto_split:top
+keybind = super+g>h=goto_split:left
+keybind = super+g>l=goto_split:right
+
+keybind = super+g>z=toggle_split_zoom
+keybind = super+g>e=equalize_splits
+
+# theme
+background = #09090b
+foreground = #fafafa
+cursor-color = #a1a1aa
+cursor-text = #09090b
+selection-background = #3f3f46
+selection-foreground = #f4f4f5
+palette = 0=#09090b
+palette = 1=#f87171
+palette = 2=#6ee7a0
+palette = 3=#fbbf24
+palette = 4=#60a5fa
+palette = 5=#c084fc
+palette = 6=#5eead4
+palette = 7=#a1a1aa
+palette = 8=#52525b
+palette = 9=#fca5a5
+palette = 10=#86efac
+palette = 11=#fde68a
+palette = 12=#93c5fd
+palette = 13=#d8b4fe
+palette = 14=#a5f3fc
+palette = 15=#fafafa
