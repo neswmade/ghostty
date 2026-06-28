@@ -9,3 +9,18 @@ git clone https://github.com/neswmade/ghostty.git ~/.config/ghostty
 ## dependencies
  - Monaspace Neon NF (font)
  - fish (shell)
+
+## theme
+
+nesw themes are build in
+pick one variant in `config`:
+
+- `nesw-dark`
+- `nesw-dark-soft`
+- `nesw-light`
+- `nesw-light-soft`
+
+preview theme with `ghostty +list-themes`
+
+## to-do
+- fix nesw-dark bg too light
