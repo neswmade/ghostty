@@ -16,9 +16,8 @@ nesw themes are build in
 pick one variant in `config`:
 
 - `nesw-dark`
-- `nesw-dark-soft`
+- `nesw-default`
 - `nesw-light`
-- `nesw-light-soft`
 
 preview theme with `ghostty +list-themes`
 

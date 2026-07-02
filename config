@@ -57,5 +57,5 @@ keybind = super+g>z=toggle_split_zoom
 keybind = super+g>e=equalize_splits
 
 # theme
-# nesw-dark | nesw-dark-soft | nesw-light | nesw-light-soft
-theme = dark:nesw-dark-soft,light:nesw-light-soft
+# nesw-dark | nesw-default | nesw-light
+theme = dark:nesw-default,light:nesw-light
