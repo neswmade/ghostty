@@ -22,4 +22,4 @@ pick one variant in `config`:
 preview theme with `ghostty +list-themes`
 
 ## to-do
-- fix nesw-dark bg too light
+- add a leader group for low-frequency actions (app launching, suspend, misc), keep window/workspace navigation as flat combos since those need instant response
